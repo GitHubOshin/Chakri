@@ -4,9 +4,9 @@ import PeopleHaveFoundJobFirstPage from '../components/firstPage/PeopleHaveFound
 
 function FirstPage() {
   return (
-    <div className="">
+    <div className="bg-[#f9fdfb] flex flex-col screen1280:items-center">
       <HeaderFirstPage />
-      <div>
+      <div className="screen1280:flex">
         <SearchingFirstPage />
         <PeopleHaveFoundJobFirstPage />
       </div>
