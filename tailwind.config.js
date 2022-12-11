@@ -5,7 +5,8 @@ module.exports = {
       mobile: '375px',
       mobileS: '320px',
       laptop: '1920px',
-      screen1280: '1280px'
+      screen1280: '1280px',
+      screen750: '750px'
     },
 
     fontFamily: {
@@ -19,7 +20,7 @@ module.exports = {
         grey: '#838995',
         grey001: '#5A7184',
         grey002: '#92AABD',
-        grey003: '#acb8c1',
+        grey003: '#acb7c1',
         grey004: '#C4C4C4',
         grey005: '#ecedef',
         grey006: '#e8ebee',
@@ -38,4 +39,3 @@ module.exports = {
   },
   plugins: []
 }
-
