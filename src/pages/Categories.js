@@ -9,7 +9,7 @@ function Categories() {
           Browse Jobs by
           <br />
           Category
-          <div className="absolute z-[-1] mobile:top-[21.8px] mobile:right-[50px] laptop:t laptop:right-[72px] bg-apricot laptop:w-[76.13px] mobile:w-[61.21px] laptop:h-[20px] mobile:h-[12.74px]"></div>
+          <div className="absolute z-[-1] mobile:top-[21.8px] mobile:right-[50px] laptop:top-[29px] laptop:right-[72px] bg-apricot laptop:w-[76.13px] mobile:w-[61.21px] laptop:h-[20px] mobile:h-[12.74px]"></div>
         </TextHeader>
       </div>
       <div className="screen1280:w-[1280px] screen1280:px-[30px] laptop:w-[1420px] laptop:p-0 grid grid-cols-1 gap-6 screen1280:gap-[30px] screen750:grid-cols-2 screen1280:grid-cols-4">
