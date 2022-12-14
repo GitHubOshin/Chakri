@@ -18,13 +18,3 @@ export function GreyCircle(props) {
     </div>
   )
 }
-
-export function SquareWhite() {
-  return (
-    <div
-      className="mobile:w-[333px] mobile:h-[268px] rounded-lg 
-    border border-[#EDEDED] mobile:px-[30px] mobile:py-[30px]
-    flex flex-col justify-between"
-    ></div>
-  )
-}
