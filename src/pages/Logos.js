@@ -1,6 +1,6 @@
 function Logos() {
   return (
-    <div className="w-full mobile:h-[302.64px] screen1280:h-[234px] flex items-center justify-center">
+    <div className="w-full mobile:h-[302.64px] screen750:h-[234px] flex items-center justify-center">
       <div className=" w-full mobile:w-[327px] mobile:h-[142.61px] screen750:w-[750px] screen1280:w-[1304px] laptop:w-[1304px] screen1280:px-[0px]  mobile:px-[24px] flex screen1280:justify-between screen750:gap-[40px] screen1280:gap-0 ">
         <div className=" flex w-full screen1280:w-[743px] mobile:flex-col screen750:flex-row mobile:items-center mobile:justify-between  screen750:gap-[44px] ">
           <img
@@ -42,3 +42,4 @@ function Logos() {
 }
 
 export default Logos
+
