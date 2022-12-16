@@ -21,13 +21,13 @@ function HeaderFirstPage() {
   ]
 
   return (
-    <div className="font-dmSans w-full flex items-center  justify-between  screen750:w-[750px] screen1280:py-[20.9px]  mobileS:pt-[20px] laptop:py-[28px] laptop:w-[1420px] screen1280:w-[1070px]  mobile:px-[24px]">
+    <div className="font-dmSans w-full flex items-center  justify-between  screen750:w-[750px] screen1280:py-[20.9px]  mobile:pt-[20px] laptop:py-[28px] laptop:w-[1420px] screen1280:w-[1070px]  mobile:px-[24px]">
       <img
         alt="Chakri Logo"
         src="images/logos/chakri-logo.svg"
-        className="mobileS:w-[77.3px] screen1280:w-[90px] screen1280:h-[50px] screen1280:mr-[116px] laptop:mr-[163px] laptop:w-[121px] laptop:h-full"
+        className="mobile:w-[77.3px] screen1280:w-[90px] screen1280:h-[50px] screen1280:mr-[116px] laptop:mr-[163px] laptop:w-[121px] laptop:h-full"
       />
-      <nav className="screen1280:flex screen1280:gap-10 laptop:justify-between   laptop:w-[478px] laptop:h-[23px] text-center mobileS:hidden">
+      <nav className="screen1280:flex screen1280:gap-10 laptop:justify-between   laptop:w-[478px] laptop:h-[23px] text-center mobile:hidden">
         {nav.map((section) => {
           return (
             <Link to={section.link}>
@@ -38,7 +38,7 @@ function HeaderFirstPage() {
           )
         })}
       </nav>
-      <div className="w-fit screen1280:flex screen1280:gap-[9px] laptop:gap-[10px]  mobileS:hidden">
+      <div className="w-fit screen1280:flex screen1280:gap-[9px] laptop:gap-[10px]  mobile:hidden">
         <button className="text-darkBlue screen1280:w-[104px] screen1280:h-[46px] screen1280:text-[12px] screen1280:font-medium laptop:w-[139px] laptop:h-[64px] laptop:font-medium laptop:text-[16px]">
           Register
         </button>
