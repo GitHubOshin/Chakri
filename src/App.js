@@ -4,7 +4,7 @@ import Logos from './pages/Logos'
 import Services from './pages/Services'
 function App() {
   return (
-    <div className="App">
+    <div className="App min-w-[375px]">
       <FirstPage />
       <Logos />
       <Categories />
