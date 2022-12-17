@@ -1,6 +1,6 @@
 export function GreyCircle(props) {
   return (
-    <div className="mobile:w-[93.91px] mobile:h-[38.59px] screen1280:w-fit screen1280:h-[70px] laptop:w-[226.29px] laptop:h-[93px] flex flex-col justify-between">
+    <div className="mobile:w-[93.91px] mobile:h-[38.59px] screen1280:w-[160px] screen1280:h-[70px] laptop:w-[226.29px] laptop:h-[93px] flex flex-col justify-between">
       <span className=" text-grey002 font-dmSans mobile:text-[6.29px] mobile:font-medium screen1280:text-[12px] laptop:text-[16px] screen1280:font-normal screen1280:tracking-[0.01rem]">
         {props.texts}
       </span>
