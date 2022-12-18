@@ -56,13 +56,13 @@ function CardTwo() {
     <div className="absolute z-10 flex flex-col laptop:gap-0 laptop:justify-between mobile:gap-[16.07px] screen1280:gap-6 mobile:left-[70px] bg-white shadow-[0px_70.7207px_56.1276px_rgba(55,55,55,0.1098)] mobile:rounded-[7.7px] mobile:w-[236.17px] mobile:h-[286.14px] mobile:py-[25.8px] mobile:px-[25.66px] screen1280:rounded-[12px] screen1280:h-[480px] screen1280:left-[110px] screen1280:w-[390px] screen1280:p-[40px] laptop:rounded-[16.84px] laptop:w-[516.63px] laptop:h-[625.93px] laptop:left-[145px] laptop:px-[57.38px] laptop:pt-[56.25px] laptop:pb-[56.13px]">
       <div className="relative bg-grey004 mobile:w-full mobile:h-[133.42px] mobile:rounded-[2.05px] screen1280:h-[220px] laptop:h-[291.86px] laptop:rounded-[4.49px]">
         <div className="absolute mobile:bottom-[12.33px] mobile:left-[11.32px] screen1280:bottom-4 screen1280:left-4 flex items-center justify-between mobile:px-[9.24px]  bg-white mobile:w-[90.83px] mobile:h-[18.47px] mobile:rounded-[10.26px] screen1280:w-40 screen1280:h-8 screen1280:rounded-2xl screen1280:px-5 laptop:w-[198.69px] laptop:h-[40.41px] laptop:rounded-[22.45px] laptop:left-[25.94px] laptop:bottom-[26.78px]">
-          <h6 className="text-darkBlue font-dmSans font-bold mobile:text-[7.18px] leading-[10.26px] screen1280:text-xs">
+          <h6 className="text-darkBlue font-dmSans font-bold mobile:text-[7.18px] leading-[10.26px] screen1280:text-xs laptop:text-[15.72px]">
             See Opened Jobs
           </h6>
           <img
             alt="Arrow"
             src="images/icons/arrow.svg"
-            className="mobile:w-[8.21px] mobile:h-[8.21px] screen1280:w-3 screen1280:h-3"
+            className="mobile:w-[8.21px] mobile:h-[8.21px] screen1280:w-3 screen1280:h-3 laptop:w-[17.96px] laptop:h-[17.96px]"
           />
         </div>
       </div>
@@ -74,7 +74,7 @@ function CardTwo() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <div className="bg-grey004 mobile:w-[20.53px] mobile:h-[17.96px] mobile:rounded-[6.16px] mobile:mr-[7.95px] screen1280:mr-2 screen1280:w-9 screen1280:h-8 screen1280:rounded-xl"></div>
-            <span className="text-darkBlue font-dmSans font-bold mobile:text-[8.21px] leading-[10.26px] tracking-[0.1px] mobile:mr-[5.13px] screen1280:mr-3 screen1280:text-sm">
+            <span className="text-darkBlue font-dmSans font-bold mobile:text-[8.21px] laptop:text-[17.96px] leading-[10.26px] tracking-[0.1px] mobile:mr-[5.13px] screen1280:mr-3 screen1280:text-sm">
               Nerte Gronw
             </span>
             <div className="bg-grey006 rounded-full mobile:w-[2.28px] mobile:h-[2.05px] screen1280:w-[4.98px] screen1280:h-[4.98px]"></div>
@@ -90,15 +90,20 @@ function CardTwo() {
 
 function CardThree() {
   return (
-    <div className="absolute z-20 flex mobile:items-center mobile:justify-center mobile:left-[228px] mobile:top-[71.82px] bg-white shadow-[0px_15px_25px_rgba(0,0,0,0.06)] mobile:rounded-[4.57px] screen1280:rounded-[10px] mobile:w-[130.87px] mobile:h-[69.94px] screen1280:w-[210px] screen1280:h-[110px] screen1280:top-[120px] screen1280:left-[362px] laptop:w-[286.29px] laptop:h-[153px] laptop:left-[422px]">
+    <div className="absolute z-20 flex mobile:items-center mobile:justify-center mobile:left-[228px] mobile:top-[71.82px] bg-white shadow-[0px_15px_25px_rgba(0,0,0,0.06)] mobile:rounded-[4.57px] screen1280:rounded-[10px] mobile:w-[130.87px] mobile:h-[69.94px] screen1280:w-[210px] screen1280:h-[110px] screen1280:top-[120px] screen1280:left-[362px] laptop:w-[286.29px] laptop:h-[153px] laptop:left-[490.6px] laptop:top-[135px]">
       <GreyCircle texts="Happy Family" />
+      <div className="absolute laptop:left-[200px] laptop:top-[67px] screen1280:left-[145px] screen1280:top-[47px] screen750:left-[89.5px] screen750:top-[31px] mobile:left-[90px] mobile:top-[31.5px] bg-plango rounded-full mobile:w-[23.24px] mobile:h-[23.24px]  screen1280:w-[42px] screen1280:h-[42px]  laptop:w-[56px] laptop:h-[56px]  mobile:flex mobile:items-center mobile:justify-center laptop:border-[0.5px] laptop:border-white mobile:border-[0.2px] mobile:border-white">
+        <span className="text-white mobile:text-[6.29px] laptop:text-[16px] text-base font-medium font-dmSans not-italic leading-[21px] screen1280:text-[12px]">
+          20+
+        </span>
+      </div>
     </div>
   )
 }
 
 function ServicesPageBlockA() {
   return (
-    <div className="relative bg-green laptop:mt-[56.8px] mobile:w-fit screen1280:w-[610px] screen1280:h-[545px]  min-w-[355px] max-w-[718.22px] min-h-[326.56px] laptop:w-[776.58px] laptop:h-[690.24px] ">
+    <div className="relative laptop:mt-[56.8px] mobile:w-fit screen1280:w-[610px] screen1280:h-[545px]  min-w-[355px] max-w-[776.58px] min-h-[326.56px] laptop:w-[776.58px] laptop:h-[690.24px] ">
       <BackGround />
       <CardOne />
       <CardTwo />
@@ -108,4 +113,3 @@ function ServicesPageBlockA() {
 }
 
 export default ServicesPageBlockA
-
