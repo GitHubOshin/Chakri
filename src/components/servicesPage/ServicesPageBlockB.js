@@ -3,12 +3,13 @@ import { TextHeader } from '../Texts'
 function ServicesPageBlockB() {
   return (
     <div className="flex flex-col mobile:gap-[24px] max-w-[574px] screen1280:pl-[40px] laptop:pl-0">
-      <div className="pl-[24px]">
+      <div className="relative pl-[24px] h-fit">
         <TextHeader>
           Watch How Our
           <br />
           Platform Works!
         </TextHeader>
+        <div className="absolute z-10 bg-apricot mobile:left-[166.6px] mobile:top-[57px] laptop:left-[215px] laptop:top-[75px]  mobile:w-[94.16px] mobile:h-[12.74px] laptop:w-[127.99px] laptop:h-[20px]"></div>
       </div>
       <div className=" grid grid-cols-1 gap-y-[24px] mobile:mx-[10px] laptop:mx-0 ">
         {HowPlatformWorks.map((item) => {
