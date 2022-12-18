@@ -27,6 +27,11 @@ function PeopleHaveFoundJobFirstPage() {
       </div>
       <div className="absolute mobile:w-[118.81px] mobile:h-[63.49px] laptop:w-[286.29px] laptop:h-[153px] screen1280:w-[220px] screen1280:h-[115px]  bg-white shadow-[0px_15px_25px_rgba(0,0,0,0.06)] mobile:rounded-[5px] laptop:rounded-[10px]  mobile:bottom-[35px] mobile:right-[40px] laptop:right-[190px] laptop:bottom-[72px] flex items-center justify-center screen1280:bottom-[50px] screen1280:right-[60px] ">
         <GreyCircle texts="20k+ People have found jobs!" />
+        <div className="absolute laptop:left-[200px] laptop:top-[67px] screen1280:top-[50px] screen1280:left-[150px] screen750:left-[84px] screen750:top-[28px] mobile:left-[84px] mobile:top-[28px] bg-[#FFE7DB] rounded-full mobile:w-[23.24px] mobile:h-[23.24px] laptop:w-[56px] laptop:h-[56px]  mobile:flex mobile:items-center mobile:justify-center laptop:border-[0.5px] laptop:border-white mobile:border-[0.2px] mobile:border-white screen1280:w-[42px] screen1280:h-[42px] ">
+          <div className=" mobile:text-[6.29px] laptop:text-[16px] text-darkGrey text-base font-medium font-dmSans not-italic leading-[21px] screen1280:text-[12px]">
+            +
+          </div>
+        </div>
       </div>
     </div>
   )
