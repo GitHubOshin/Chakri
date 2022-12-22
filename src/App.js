@@ -3,6 +3,7 @@ import Categories from './pages/Categories'
 import Logos from './pages/Logos'
 import Services from './pages/Services'
 import PopularJobs from './pages/PopularJobs'
+import JobSeeker from './pages/JobSeeker'
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <Categories />
       <Services />
       <PopularJobs />
+      <div>
+        <JobSeeker />
+      </div>
     </div>
   )
 }
