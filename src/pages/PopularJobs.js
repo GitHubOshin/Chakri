@@ -27,7 +27,7 @@ function PopularJobs() {
           {jobDetails.map((item) => {
             return (
               <div className="bg-white shadow-[5px_0px_56.1276px_rgba(55,55,55,0.1098)]  laptop:min-w-[453px] min-w-[355px] mobile:rounded-[16.84px] mobile:w-full mobile:h-[292px] mobile:py-[30px] mobile:px-[24px] laptop:h-[346px] laptop:py-[40px] laptop:px-[40px] laptop:flex laptop:flex-col laptop:justify-between  ">
-                <div className={flexCenterClasses}>
+                <div className={flexContentBetween}>
                   <div className="bg-[#fceeea]  rounded-[5px] w-[140px] h-[30px] flex items-center justify-center">
                     <h1 className="text-[#E95432] font-poppins font-medium text-[14px] leading-[20px]">
                       {item.category}
