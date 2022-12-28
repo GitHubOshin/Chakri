@@ -30,7 +30,7 @@ function HeaderFirstPage() {
       <nav className="screen1280:flex screen1280:gap-10 laptop:justify-between   laptop:w-[478px] laptop:h-[23px] text-center mobile:hidden">
         {nav.map((section) => {
           return (
-            <Link to={section.link}>
+            <Link key={section.section} to={section.link}>
               <button className="text-darkBlue cursor-pointer screen1280:text-[13px] screen1280:font-medium tracking-[0.02em] laptop:text-[18px] laptop:leading-[23.44px] laptop:font-normal">
                 {section.section}
               </button>
@@ -54,3 +54,4 @@ function HeaderFirstPage() {
 }
 
 export default HeaderFirstPage
+
