@@ -4,6 +4,8 @@ import Logos from './pages/Logos'
 import Services from './pages/Services'
 import PopularJobs from './pages/PopularJobs'
 import JobSeeker from './pages/JobSeeker'
+import Testimonial from './pages/Testimonial'
+import LastPage from './pages/LastPage'
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
       <Services />
       <PopularJobs />
       <div>
+        <Testimonial />
         <JobSeeker />
       </div>
+      <LastPage />
     </div>
   )
 }
