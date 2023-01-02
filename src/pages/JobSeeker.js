@@ -4,7 +4,7 @@ function JobSeeker() {
       <div className="max-w-[1534.93px] flex mobile:flex-col items-center mobile:justify-center screen1280:flex-row mobile:gap-[16.03px] screen1280:gap-[88.49px] screen1280:w-full ">
         <img
           alt="Map"
-          src="images/otherimages/map.svg"
+          src="images/otherImages/map.svg"
           className="max-w-[821.49px] max-h-[491.47px] w-full h-full mobile:max-w-[554px]  min-h-[212.38px]  laptop:min-w-[821.49px] "
         />
         <div className="max-w-[625px] max-h-[441.97px]  mobile:max-w-[554px] laptop:min-w-[625px] laptop:h-[427.83px] flex flex-col justify-between">
