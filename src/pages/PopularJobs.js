@@ -8,7 +8,7 @@ function PopularJobs() {
     <div className="relative z-10 min-w-[375px] w-full flex flex-col items-center  mobile:h-[622px] mobile:px-[10px] laptop:h-[866px] screen1280:pt-[140px] mobile:pt-[80px]">
       <img
         alt="waves"
-        src="images/otherimages/waves.svg"
+        src="images/otherImages/waves.svg"
         className="absolute z-[-1] mobile:hidden laptop:block"
       />
       <div className="w-full max-w-[1419px] laptop:min-w-[1419px] screen1280:max-w-[1280px] mobile:h-[458px] laptop:h-[576px] flex justify-between flex-col items-center">
