@@ -21,7 +21,7 @@ function HeaderFirstPage() {
   ]
 
   return (
-    <div className="font-dmSans w-full flex items-center  justify-between  screen750:w-[750px] screen1280:py-[20.9px]  mobile:pt-[20px] laptop:py-[28px] laptop:w-[1420px] screen1280:w-[1070px]  mobile:px-[24px]">
+    <div className="font-dmSans w-full flex items-center  justify-between  screen750:w-[750px] screen750:px-[103px] screen1280:px-0 screen1280:py-[20.9px]  mobile:pt-[20px]  laptop:py-[28px] laptop:w-[1420px] screen1280:w-[1070px]  mobile:px-[24px]">
       <img
         alt="Chakri Logo"
         src="images/logos/chakri-logo.svg"
@@ -54,4 +54,5 @@ function HeaderFirstPage() {
 }
 
 export default HeaderFirstPage
+
 
