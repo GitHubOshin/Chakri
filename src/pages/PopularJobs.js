@@ -5,13 +5,13 @@ function PopularJobs() {
   const flexCenterClasses = 'flex justify-center items-center'
   const flexContentBetween = 'flex justify-between items-center'
   return (
-    <div className="relative z-10 min-w-[375px] w-full flex flex-col items-center  mobile:h-[622px] mobile:px-[10px] laptop:h-[866px] screen1280:pt-[140px] mobile:pt-[80px]">
+    <div className="relative z-10 min-w-[375px] w-full flex flex-col items-center   mobile:h-[622px] mobile:px-[10px] laptop:h-[866px] screen1280:pt-[140px] screen1280:px-[120px] mobile:pt-[80px]">
       <img
         alt="waves"
         src="images/otherImages/waves.svg"
         className="absolute z-[-1] mobile:hidden laptop:block"
       />
-      <div className="w-full max-w-[1419px] laptop:min-w-[1419px] screen1280:max-w-[1280px] mobile:h-[458px] laptop:h-[576px] flex justify-between flex-col items-center">
+      <div className="w-full mobile:max-w-[554px] max-w-[1419px] laptop:min-w-[1419px] screen1280:max-w-[1280px] mobile:h-[458px] laptop:h-[576px] flex justify-between flex-col items-center">
         <div className="w-full mobile:mx-[14px] flex mobile:justify-between mobile:items-end screen1280:items-center">
           <TextHeader>
             Some Popular
