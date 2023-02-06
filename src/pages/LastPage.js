@@ -10,7 +10,17 @@ import {
 
 function LastPage() {
   return (
-    <section className="w-full min-h-[752.15px] max-h-[1555.03px] mobile:mt-20 laptop:mt-[160px] flex items-center justify-center screen1280:px-[120px] mobile:px-[10px]">
+    <section className="relative w-full min-h-[752.15px] max-h-[1555.03px] mobile:mt-20 laptop:mt-[160px] flex items-center justify-center screen1280:px-[120px] mobile:px-[10px] pb-32">
+      <img
+        alt="orange dots"
+        src="images/otherImages/orange-dots.svg"
+        className="absolute left-0 top-[-30px] mobile:hidden screen1280:block"
+      />
+      <img
+        alt="green dots"
+        src="images/otherImages/green-dots2.svg"
+        className="absolute right-0 bottom-0 mobile:hidden screen1280:block"
+      />
       <div className="w-full max-w-[1420px] flex flex-col mobile:max-w-[554px] screen1280:max-w-[1280px] laptop:max-w-[1420px]  mobile:gap-20 laptop:gap-[120px] ">
         <div className="bg-bgSubscribe rounded-[16.84px] mobile:max-w-[554px] screen1280:max-w-full  min-h-[314px] max-h-[350px] laptop:h-[350px] flex items-center mobile:flex-col mobile:justify-center screen1280:justify-between screen1280:flex-row screen1280:px-[200px] mobile:gap-[27.97px] screen1280:gap-0 mobile:px-[35px]">
           <h1 className="text-darkBlue mobile:text-center screen1280:text-left font-poppins font-bold leading-[60px] tracking-[0.2px] mobile:text-[30px] laptop:text-[40px] max-w-[541.07px]">
