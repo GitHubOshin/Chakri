@@ -7,7 +7,7 @@ function JobSeeker() {
           src="images/otherImages/map.svg"
           className="max-w-[821.49px] max-h-[491.47px] w-full h-full mobile:max-w-[554px]  min-h-[212.38px]  laptop:min-w-[821.49px] "
         />
-        <div className="max-w-[625px] max-h-[441.97px]  mobile:max-w-[554px] laptop:min-w-[625px] laptop:h-[427.83px] flex flex-col justify-between">
+        <div className="max-w-[625px] max-h-[441.97px]  mobile:max-w-[554px] laptop:min-w-[625px] laptop:h-[427.83px] flex flex-col justify-between mobile:mb-24 screen1280:mb-0">
           <h1 className="text-darkBlue font-poppins font-bold leading-[50px] mobile:text-[24px] laptop:text-[40px]">
             20k+ people around the world have found a job through &nbsp;
             <span class="relative">
