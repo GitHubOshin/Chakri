@@ -5,7 +5,10 @@ function PopularJobs() {
   const flexCenterClasses = 'flex justify-center items-center'
   const flexContentBetween = 'flex justify-between items-center'
   return (
-    <div className="relative z-10 min-w-[375px] w-full flex flex-col items-center   mobile:h-[622px] mobile:px-[10px] laptop:h-[866px] screen1280:pt-[140px] screen1280:px-[120px] mobile:pt-[80px]">
+    <section
+      id="job"
+      className="relative z-10 min-w-[375px] w-full flex flex-col items-center   mobile:h-[622px] mobile:px-[10px] laptop:h-[866px] screen1280:pt-[140px] screen1280:px-[120px] mobile:pt-[80px]"
+    >
       <img
         alt="waves"
         src="images/otherImages/waves.svg"
@@ -83,8 +86,9 @@ function PopularJobs() {
           <img alt="k" src="images/icons/arrow-right.svg" className="max-h-3" />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
 export default PopularJobs
+
