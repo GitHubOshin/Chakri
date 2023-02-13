@@ -2,7 +2,10 @@ import HowPlatformWorks from '../../data/HowPlatformWorks'
 import { TextHeader } from '../Texts'
 function ServicesPageBlockB() {
   return (
-    <div className="flex flex-col mobile:gap-[24px] max-w-[574px] screen1280:pl-[40px] laptop:pl-0">
+    <section
+      id="how-it-works"
+      className="flex flex-col mobile:gap-[24px] max-w-[574px] screen1280:pl-[40px] laptop:pl-0"
+    >
       <div className="relative pl-[24px] h-fit">
         <TextHeader>
           Watch How Our
@@ -30,9 +33,10 @@ function ServicesPageBlockB() {
           )
         })}
       </div>
-    </div>
+    </section>
   )
 }
 
 export default ServicesPageBlockB
+
 
