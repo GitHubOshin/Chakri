@@ -1,6 +1,9 @@
 function Testimonial() {
   return (
-    <section className="w-full h-full flex items-center justify-center screen1280:h-[491.47px] laptop:h-[607.83px]  mobile:max-h-[960.39px]  screen1280:max-h-[607.83px]  screen1280:px-[120px] mobile:mb-[70px] screen1280:mb-0 laptop:mb-[70px]">
+    <section
+      id="testimonial"
+      className="w-full h-full flex items-center justify-center screen1280:h-[491.47px] laptop:h-[607.83px]  mobile:max-h-[960.39px]  screen1280:max-h-[607.83px]  screen1280:px-[120px] mobile:mb-[70px] screen1280:mb-0 laptop:mb-[70px]"
+    >
       <div className=" w-full screen1280:max-w-[1280px] laptop:max-w-[1420px] flex mobile:flex-col-reverse items-center screen1280:flex-row justify-between mobile:px-[10px] screen1280:px-0 mobile:gap-[46.03px]">
         <div className=" text-darkBlue w-full  mobile:max-w-[554px] laptop:max-w-[695px] mobile:px-[14px] mobile:mb-24 screen1280:mb-0">
           <h1 className="font-poppins font-bold mobile:text-[24px] laptop:text-[30px] leading-[60px] tracking-[0.2px]">
