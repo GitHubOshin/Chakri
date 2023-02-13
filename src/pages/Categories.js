@@ -3,7 +3,10 @@ import browseJobsByCategory from '../data/BrowseJobsByCategory'
 
 function Categories() {
   return (
-    <div className="laptop:mt-[60px] w-[full] mobile:h-[2501.8px] screen750:h-[1350px] screen1280:h-[817px] flex flex-col items-center mobile:gap-y-[30px] screen1280:gap-y-[70px]">
+    <section
+      id="category"
+      className="laptop:mt-[60px] w-[full] mobile:h-[2501.8px] screen750:h-[1350px] screen1280:h-[817px] flex flex-col items-center mobile:gap-y-[30px] screen1280:gap-y-[70px]"
+    >
       <div className="flex text-center justify-center items-center w-full">
         <TextHeader>
           Browse Jobs by
@@ -72,7 +75,7 @@ function Categories() {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
