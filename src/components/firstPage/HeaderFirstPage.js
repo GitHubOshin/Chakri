@@ -1,22 +1,20 @@
-import { BrowserRouter as Link } from 'react-router-dom'
-
 function HeaderFirstPage() {
   const nav = [
     {
       section: 'Category',
-      link: '/src/pages/Categories.js'
+      link: '#category'
     },
     {
       section: 'Job',
-      link: '/src/pages/JobSeeker.js'
+      link: '#job'
     },
     {
       section: 'How it works',
-      link: '/src/pages/Services.js'
+      link: '#how-it-works'
     },
     {
       section: 'Testimonial',
-      link: '/src/pages/Testimonial.js'
+      link: '#testimonial'
     }
   ]
 
@@ -30,11 +28,11 @@ function HeaderFirstPage() {
       <nav className="screen1280:flex screen1280:gap-10 laptop:justify-between   laptop:w-[478px] laptop:h-[23px] text-center mobile:hidden">
         {nav.map((section) => {
           return (
-            <Link key={section.section} to={section.link}>
-              <button className="text-darkBlue cursor-pointer screen1280:text-[13px] screen1280:font-medium tracking-[0.02em] laptop:text-[18px] laptop:leading-[23.44px] laptop:font-normal">
+            <a key={section.section} href={section.link}>
+              <div className="text-darkBlue cursor-pointer screen1280:text-[13px] screen1280:font-medium tracking-[0.02em] laptop:text-[18px] laptop:leading-[23.44px] laptop:font-normal">
                 {section.section}
-              </button>
-            </Link>
+              </div>
+            </a>
           )
         })}
       </nav>
