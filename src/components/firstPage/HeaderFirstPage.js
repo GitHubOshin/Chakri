@@ -1,25 +1,11 @@
-function HeaderFirstPage() {
-  const nav = [
-    {
-      section: 'Category',
-      link: '#category'
-    },
-    {
-      section: 'Job',
-      link: '#job'
-    },
-    {
-      section: 'How it works',
-      link: '#how-it-works'
-    },
-    {
-      section: 'Testimonial',
-      link: '#testimonial'
-    }
-  ]
+import nav from '../../data/nav'
+import { Register, SignIn } from '../Buttons'
+
+function HeaderFirstPage(props) {
+  const { openMenu } = props
 
   return (
-    <header className="font-dmSans w-full flex items-center  justify-between  screen750:w-[750px] screen750:px-[103px] screen1280:px-0 screen1280:py-[20.9px]  mobile:pt-[20px]  laptop:py-[28px] laptop:w-[1420px] screen1280:w-[1220px]  mobile:px-[24px]">
+    <header className="absolute font-dmSans w-full max-w-[1440px] flex items-center  justify-between mobile:px-[24px] screen750:px-[110px]  screen1280:py-[20.9px]  mobile:pt-[20px]  laptop:py-[28px] laptop:px-0">
       <img
         alt="Chakri Logo"
         src="images/logos/chakri-logo.svg"
@@ -37,15 +23,11 @@ function HeaderFirstPage() {
         })}
       </nav>
       <div className="w-fit screen1280:flex screen1280:gap-[9px] laptop:gap-[10px]  mobile:hidden">
-        <button className="text-darkBlue screen1280:w-[104px] screen1280:h-[46px] screen1280:text-[12px] screen1280:font-medium laptop:w-[139px] laptop:h-[64px] laptop:font-medium laptop:text-[16px]">
-          Register
-        </button>
-        <button className="bg-orange text-white screen1280:w-[104px] screen1280:h-[46px] screen1280:rounded-[7px] screen1280:text-[12px] screen1280:font-medium laptop:w-[139px] laptop:h-[64px] laptop:rounded-[10px] laptop:font-medium laptop:text-[16px]">
-          Sign In
-        </button>
+        <Register />
+        <SignIn />
       </div>
-      <button className="screen1280:hidden w-fit">
-        <img alt="Menu" src="images/icons/menu.svg" className="" />
+      <button className="screen1280:hidden w-fit" onClick={openMenu}>
+        <img alt="Menu" src="images/icons/menu.svg" />
       </button>
     </header>
   )
