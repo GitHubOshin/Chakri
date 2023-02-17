@@ -9,7 +9,7 @@ function SearchingFirstPage() {
 
   return (
     <div className="screen1280:flex screen1280:items-center screen1280:justify-end laptop:pr-[70px] laptop:h-[840px] laptop:w-[960px] screen1280:w-[640px] screen1280:h-[630px] screen1280:pr-[55px]">
-      <div className="mobile:w-fit mobile:h-fit mobile:px-[10px] screen1280:px-0 flex flex-col mobile:mt-[50.02px] mobile:gap-[24px] screen1280:gap-[28px] laptop:gap-[40px] screen1280:mt-0 screen1280:w-fit">
+      <div className="mobile:w-fit mobile:h-fit mobile:px-[10px] screen1280:px-0 flex flex-col  mobile:gap-[24px] screen1280:gap-[28px] laptop:gap-[40px] screen1280:w-fit">
         <h1 className="relative w-fit z-0 text-darkBlue font-poppins mobile:ml-[20px] screen1280:ml-0 mobile:text-[30px] mobile:leading-[40px] laptop:leading-[100px] laptop:text-[80px] screen1280:text-[60px] screen1280:leading-[76px] font-extrabold ">
           Find Every Job
           <br />
@@ -57,4 +57,5 @@ function SearchingFirstPage() {
 }
 
 export default SearchingFirstPage
+
 
