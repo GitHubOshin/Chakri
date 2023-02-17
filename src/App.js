@@ -9,7 +9,7 @@ import LastPage from './pages/LastPage'
 
 function App() {
   return (
-    <div className="App min-w-[375px]">
+    <div className="relative min-w-[375px]">
       <FirstPage />
       <Logos />
       <Categories />
